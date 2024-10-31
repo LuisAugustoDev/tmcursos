@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "nome": "BOLSONARO MEU PREFEITO",
+        "autor": "TecnoMinds",
+        "capa": "https://imagenes.elpais.com/resizer/v2/7XAYMNZ56VHQ3EP3L6LVO6CL7M.jpg?auth=96bb3ec224478c859117cebcd701c8ec805e9204abc77efdb2c65df7898a0b08&width=1200",
+        "totalModulos": 22,
+        "avaliacao": 4.5,
+        "sobre": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+        "descModulos": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!"
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Como virar Coach",
+        "autor": "Pablo Marçal",
+        "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQolX_TA7a00cCGwYftMTDvarBD_EeTm16DGg&s",
+        "totalModulos": 28,
+        "avaliacao": 6.5,
+        "sobre": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+        "descModulos": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!"
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Como ser uma Luna?",
+        "autor": "Sei lá",
+        "capa": "https://i.ytimg.com/vi/p8Zg9ii787k/maxresdefault.jpg",
+        "totalModulos": 6,
+        "avaliacao": 4.1,
+        "sobre": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+        "descModulos": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod repellendus libero neque quaerat incidunt nisi dolor quae earum ea molestiae ab, commodi quos minima cum perspiciatis animi eum amet!"
+        ]
+    }
+]

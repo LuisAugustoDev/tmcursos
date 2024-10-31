@@ -1,0 +1,159 @@
+{
+    "cursos": [
+        {
+            "id": 1,
+            "titulo": "Informática Básica",
+            "autor": "TecnoMinds",
+            "descricao": "O curso foi criado com o intuito de levar conhecimento da área da informática",
+            "totalModulos": 8,
+            "avaliacao": 4.8,
+            "capa": "https://www.cursosabeline.com.br/webroot/cur_cache/curso-com-certificado-de-informatica-basica-1567603559-870-810b01c8.jpg",
+            "modulos": [
+                {
+                    "id": 1,
+                    "titulo": "Noções básicas de informática",
+                    "descricao": "Neste módulo, você aprenderá noções basicas sobre informática",
+                    "textoum": "Neste módulo, faremos uma <strong>introducação à Informática</strong> de modo geral.",
+                    "videoId": "WULwZ6v_Ai8?si=Grd_QjerSrRE6rlK",
+                    "segundoTexto": "Com isso, você pôde aprender um pouco dessa área. Vamos para o proximo modulo? :)"
+                },
+                {
+                    "id": 2,
+                    "titulo": "Sistemas Operacionais e Softwares",
+                    "descricao": "Neste módulo, você aprenderá sobre sistemas operacionais e software",
+                    "textoum": "ISSO AI KKKKKKKKKKKKKKKKKKK",
+                    "videoId": null,
+                    "segundoTexto": "Com isso, você pôde aprender um pouco dessa área. Vamos para o proximo modulo? :)"
+                },
+                {
+                    "id": 3,
+                    "titulo": "Digitação, teclas especiais e manipulação de arquivos",
+                    "descricao": "Neste módulo, você aprenderá digitação, teclas especiais e manipulação de arquivos",
+                    "textoum": "APERTA CTRL + F4 AIKKKKKKKKKKK",
+                    "videoId": "G7osIEUSmdo?si=gQOF-lKrPtHbsXbz",
+                    "segundoTexto": "Com isso, você pôde aprender um pouco dessa área. Vamos para o proximo modulo? :)"
+                },
+                {
+                    "id": 4,
+                    "titulo": "Segurança da Internet",
+                    "descricao": "Neste módulo, você aprenderá sobre segurança da Internet",
+                    "textoum": "Neste módulo, aprenderemos sobre <strong>segurança</strong>",
+                    "videoId": "Gfh2bxe3hGU?si=YnmHiBME6Z0Gf1m2",
+                    "segundoTexto": "Com isso, você pôde aprender um pouco dessa área. Vamos para o proximo modulo? :)"
+                },
+                {
+                    "id": 5,
+                    "titulo": "Informática para uso profissional",
+                    "descricao": "Neste módulo, você aprenderá a usar a informática para uso profissional",
+                    "textoum": "Neste módulo, aprenderemos sobre <strong>trabalho</strong>",
+                    "videoId": null,
+                    "segundoTexto": "Com isso, você pôde aprender um pouco dessa área. Vamos para o proximo modulo? :)"
+                },
+                {
+                    "id": 6,
+                    "titulo": "Ferramentas de Escritorio - Documentos",
+                    "descricao": "Neste módulo, você aprenderá a como criar documentos",
+                    "textoum": "Neste módulo, aprenderemos sobre <strong>trabalho</strong>",
+                    "videoId": null,
+                    "segundoTexto": "Com isso, você pôde aprender um pouco dessa área. Vamos para o proximo modulo? :)"
+                },
+                {
+                    "id": 7,
+                    "titulo": "Ferramentas de Escritorio - Planilhas",
+                    "descricao": "Neste módulo, você aprenderá a como criar planilhas",
+                    "textoum": "Neste módulo, aprenderemos sobre <strong>trabalho</strong>",
+                    "videoId": null,
+                    "segundoTexto": "Com isso, você pôde aprender um pouco dessa área. Vamos para o proximo modulo? :)"
+                },
+                {
+                    "id": 8,
+                    "titulo": "Ferramentas de Escritorio - Apresentações",
+                    "descricao": "Neste módulo, você aprenderá a como criar apresentações",
+                    "textoum": "Neste módulo, aprenderemos sobre <strong>trabalho</strong>",
+                    "videoId": null,
+                    "segundoTexto": "Com isso, você pôde aprender um pouc dessa área. Vamos para o proximo modulo? :)"
+                }
+            ],
+            "questoes": [
+                {
+                    "id": 1,
+                    "enunciado": "Qual o principal componente de hardware?",
+                    "alternativas": [
+                        {
+                            "id": 1,
+                            "isCorreta": false,
+                            "resposta": "SSD"
+                        },
+                        {
+                            "id": 2,
+                            "isCorreta": false,
+                            "resposta": "HD"
+                        },
+                        {
+                            "id": 3,
+                            "isCorreta": true,
+                            "resposta": "Processador"
+                        },
+                        {
+                            "id": 4,
+                            "isCorreta": false,
+                            "resposta": "Monitor"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "enunciado": "Qual programa é usado para criar documentos?",
+                    "alternativas": [
+                        {
+                            "id": 1,
+                            "isCorreta": false,
+                            "resposta": "Microsoft PowerPoint"
+                        },
+                        {
+                            "id": 2,
+                            "isCorreta": true,
+                            "resposta": "Microsoft Word"
+                        },
+                        {
+                            "id": 3,
+                            "isCorreta": false,
+                            "resposta": "Firefox"
+                        },
+                        {
+                            "id": 4,
+                            "isCorreta": false,
+                            "resposta": "Eclipse IDE"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "enunciado": "Quais desses são sistemas operacionais?",
+                    "alternativas": [
+                        {
+                            "id": 1,
+                            "isCorreta": false,
+                            "resposta": "Windows, Whatsapp e Google"
+                        },
+                        {
+                            "id": 2,
+                            "isCorreta": false,
+                            "resposta": "Apple, Instagram e PowerPoint"
+                        },
+                        {
+                            "id": 3,
+                            "isCorreta": true,
+                            "resposta": "Windows, MacOS e Linux"
+                        },
+                        {
+                            "id": 4,
+                            "isCorreta": false,
+                            "resposta": "Windows, Android e Google"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
