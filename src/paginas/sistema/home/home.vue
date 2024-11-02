@@ -4,9 +4,15 @@
     <main>
         <div class="area">
             <barraTitulo :texto="'Nossos Cursos'" />
-            <div class="blocoCards">
-                <!-- <cardCurso v-for="c in cursos" :idCurso="c.id" :capa_curso="c.capa" :curso="true" :titulo="c.titulo" :criador="c.autor" :nModulos="c.totalModulos"  :avaliacao="c.avaliacao.toString()"/> -->
-                 <cardCurso v-for="curso in cursos" :curso="curso" />
+            <div class="cardCurso" v-for="curso in cursos">
+                <RouterLink :to="{name: 'exibirCurso', params: {id: curso.id} }">
+                <img class="curso-capa" :src="curso.capa" alt="Capa do curso">
+                <div class="area-text" >
+                    <h2 class="curso-titulo">{{curso.titulo}}</h2>
+                    <h5 class="curso-autores">{{curso.autor}} • {{ curso.modulos.length }} Módulos</h5>
+                    <p class="curso-avaliacao"><i class="fa fa-star"></i> {{ curso.avaliacao }}</p>
+                </div>
+                </RouterLink>
             </div>
         </div>
         
