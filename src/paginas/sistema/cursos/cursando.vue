@@ -25,7 +25,17 @@
             </div>  
 
             <div class="modulos-content" v-for="(modulo, indice) in cursoFiltrado.modulos" :key="modulo.id" v-show="getModulo(indice+1)">
-                <modulo :modulo="modulo" />
+                <div class="modulo-conteudo">
+                    <h2 id="titulo_conteudo">Módulo {{modulo.id}} - {{ modulo.titulo }}</h2>
+            
+                    <div class="area-texto">
+                        <div class="paragrafo" v-html="modulo.textoum"></div>
+                        <div id="div-video" v-if="modulo.videoId">
+                            <iframe width="100%" height="100%" :src="'https://www.youtube.com/embed/' + modulo.videoId" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="paragrafo" v-html="modulo.segundoTexto"></div>
+                    </div>
+                </div>
                 <div class="area-botao">
                     <button class="botao" v-if="(indice+1) < cursoFiltrado.modulos.length" @click="concluirModulo()">Concluir módulo</button>
                     <button class="botao" v-if="(indice+1) === cursoFiltrado.modulos.length" @click="concluirCurso">Concluir curso</button>
@@ -46,7 +56,6 @@
 
 <script setup>
 import cabecalho from '../../sistema/componentes/header.vue';
-import modulo from './componentes/conteudoModulo.vue';
 import tmFooter from '@/componentes/tmFooter.vue';
 </script>
 
@@ -140,6 +149,40 @@ export default {
     width: 80%;
     margin-inline: auto;
     margin-block: 40px;
+
+    .modulos-content {
+        .modulo-conteudo {
+            padding: 30px 40px;
+        
+            #titulo_conteudo {
+                font-weight: bold;
+            }
+        
+            .area-texto {
+                padding-inline: 30px;
+        
+                .paragrafo {
+                    font-size: 20px;
+                    margin: 0;
+                    text-align: justify;
+                }
+        
+                #div-video {
+                    display: flex;
+                    justify-content: center;
+                    padding-block: 30px;
+        
+                    width:  560px;
+                    height: 330px;
+                    margin-inline: auto;
+                }
+        
+                .space {
+                    margin-inline: 30px;
+                }
+            }
+        }
+    }
     .area-botao {
         display: flex;
         justify-content: end;
@@ -246,6 +289,26 @@ export default {
 
             .modulo {
                 width: 50%;
+            }
+        }
+
+        .modulos-content {
+            .modulo-conteudo {
+                padding-inline: 20px;
+        
+                #titulo_conteudo {
+                    font-size: 22px;
+                }
+        
+                .area-texto {
+                    padding-inline: 0;
+        
+                    #div-video {
+                        margin: 0;
+                        width: 100%;
+                        height: 40%
+                    }
+                }
             }
         }
     }

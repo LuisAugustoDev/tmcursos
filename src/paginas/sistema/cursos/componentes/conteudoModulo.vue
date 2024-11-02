@@ -9,7 +9,6 @@
             </div>
             <div class="paragrafo" v-html="this.modulo.segundoTexto"></div>
         </div>
-        
     </div>
 </template>
 
