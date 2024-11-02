@@ -3,21 +3,21 @@
         <div class="div-logo"></div>
         
         <div class="links" @click="toggleMenu">
-            <div class="menu-fechar" @click="toggleMenu">
+            <div class="menu-fechar link" @click="toggleMenu">
                 <a @click="toggleMenu"><i class="fa-solid fa-xmark"></i></a>
             </div>
             <nav>
-                <a href="#inicio">Início</a>
-                <a href="#sobrenos">Sobre</a>
-                <a href="#contato">Contato</a>
+                <a class="link" href="#inicio">Início</a>
+                <a class="link" href="#sobrenos">Sobre</a>
+                <a class="link" href="#contato">Contato</a>
             </nav>
     
-            <div class="login">
-                <RouterLink to="/login" id="entrar"><i class="fa-solid fa-right-to-bracket"></i> Entrar</RouterLink>
+            <div class="login link">
+                <RouterLink to="/login" id="entrar" ><i class="fa-solid fa-right-to-bracket"></i> Entrar</RouterLink>
             </div>
         </div>
 
-        <a class="menu" @click="toggleMenu">
+        <a class="menu link" @click="toggleMenu">
             <i class="fa-solid fa-bars"></i>
         </a>
         
@@ -90,7 +90,7 @@ header {
         background-size: cover; /* ou 'contain' dependendo do efeito desejado */
         background-repeat: no-repeat; /* impede a repetição da imagem */
         background-position: center; /* centraliza a imagem */
-        height: 30px; /* altura do elemento */
+        height: 5vh; /* altura do elemento */
         width: 20%; /* largura do elemento */
         transition: .3s;
     }
@@ -164,7 +164,10 @@ header.rolagem {
         background-image: url('../../assets/logo-ext-roxo.png');
     }
 
-    a {
+    .login{
+        border-color: #990EF1;
+    }
+    .link, .login a {
         color: #990EF1;
     }
 }
