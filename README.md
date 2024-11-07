@@ -1,28 +1,30 @@
-# tecnominds
+# TecnoMinds
 
-This template should help get you started developing with Vue 3 in Vite.
+![TecnoMinds](https://github.com/user-attachments/assets/a1c9f842-113d-4238-b7fb-b5781375ce10)
+Este repositório foi criado para atender à criação e desenvolvimento do Projeto Integrador dos alunos de Informática 3v, do IFRN <em>campus</em> Santa Cruz.
 
-## Recommended IDE Setup
+## Ferramentas Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![My Skills](https://skillicons.dev/icons?i=js,nodejs,vue,html,scss)
 
-## Customize configuration
+## Considerações
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+* Para executar o projeto, é necessário **Node.js** instalado.
 
-## Project Setup
+## Execução
 
+### Instalar as dependências do Node
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar e executar o projeto em desenvolvimento
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilar e executar o projeto em produção
 
 ```sh
 npm run build
