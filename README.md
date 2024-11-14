@@ -29,8 +29,3 @@ npm run dev
 ```sh
 npm run build
 ```
-### Teste
-
-# Contribuidores
-
-![Augusto](https://avatars.githubusercontent.com/u/165170454?v=4) Augusto
